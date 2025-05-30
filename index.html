@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" class="logo" />
+    <ul class="nav-links">
+      <li>Home</li>
+      <li>TV Shows</li>
+      <li>Movies</li>
+      <li>My List</li>
+    </ul>
+  </header>
+
+  <section class="banner">
+    <div class="banner-contents">
+      <h1>Featured Movie</h1>
+      <p>Some description of the featured content goes here.</p>
+      <div class="banner-buttons">
+        <button>Play</button>
+        <button>My List</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Trending Now</h2>
+    <div class="row-posters" id="row1"></div>
+  </section>
+
+  <section class="row">
+    <h2>Top Rated</h2>
+    <div class="row-posters" id="row2"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
